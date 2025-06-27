@@ -6,12 +6,14 @@ import { registerPlugins } from '@core/utils/plugins'
 import '@core/scss/template/index.scss'
 import '@layouts/styles/index.scss'
 
+
 // Create vue app
 const app = createApp(App)
 
 
 // Register plugins
 registerPlugins(app)
+
 
 // Mount vue app
 app.mount('#app')
