@@ -8,11 +8,12 @@ const props = defineProps({
 </script>
 
 <template>
-  <li class="nav-section-title">
+  <li class="">
     <div class="title-wrapper">
       <!-- eslint-disable vue/no-v-text-v-html-on-component -->
       <span
         class="title-text"
+        icon="ri-subtract-line"
         v-text="item.heading"
       />
       <!-- eslint-enable vue/no-v-text-v-html-on-component -->
